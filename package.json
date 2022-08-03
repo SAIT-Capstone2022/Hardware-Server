@@ -1,14 +1,15 @@
 {
   "name": "localserver",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "devStart": "nodemon server.js"
+    "devStart": "nodemon server.js",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@serialport/parser-readline": "^10.3.0",
     "cors": "^2.8.5",
     "express": "^4.18.1",
     "joi": "^17.6.0",
@@ -18,5 +19,14 @@
   "devDependencies": {
     "dotenv": "^16.0.1",
     "nodemon": "^2.0.19"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SAIT-Capstone2022/Hardware-Server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SAIT-Capstone2022/Hardware-Server/issues"
+  },
+  "homepage": "https://github.com/SAIT-Capstone2022/Hardware-Server#readme",
+  "description": ""
 }
